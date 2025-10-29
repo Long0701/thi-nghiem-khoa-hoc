@@ -19,6 +19,7 @@ export default function Home() {
           Khám phá thế giới khoa học qua các thí nghiệm tương tác
         </p>
       </div>
+      
 
       <div className="flex flex-col lg:flex-row gap-3 sm:gap-4 md:gap-6 lg:h-[calc(100vh-9rem)]">
         {/* Left Sidebar - Experiment Menu */}
