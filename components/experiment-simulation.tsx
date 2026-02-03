@@ -18,6 +18,8 @@ export function ExperimentSimulation({ experimentId }: ExperimentSimulationProps
       "sound-propagation": "Sự lan truyền của âm thanh",
       "light-shadow": "Ánh sáng và bóng tối",
       "combustion-air": "Không Khí Duy Trì Sự Cháy",
+      "air-pollution-consequences": "Hậu quả ô nhiễm không khí",
+      "harmful-fungi-food-preservation": "Nấm có hại, cách bảo quản thực phẩm",
     }
     return titles[experimentId] || "Thí Nghiệm"
   }
@@ -33,6 +35,8 @@ export function ExperimentSimulation({ experimentId }: ExperimentSimulationProps
       "sound-production": "https://www.youtube.com/embed/2NhQ5_Gx35Y",
       "sound-propagation": "https://www.youtube.com/embed/ZcZvlLYs0zI",
       "combustion-air": "https://www.youtube.com/embed/dIZg0i5pHYw",
+      "air-pollution-consequences": "https://www.youtube.com/embed/8ROgeEtfDUg",
+      "harmful-fungi-food-preservation": "https://www.youtube.com/embed/Wtf44wFUCwY",
     }
     return videos[experimentId] || ""
   }

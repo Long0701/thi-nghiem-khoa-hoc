@@ -13,6 +13,20 @@ interface Experiment {
 }
 
 const experiments: Experiment[] = [
+  // 🌫️ Môi trường
+  {
+    id: "air-pollution-consequences",
+    name: "Hậu quả ô nhiễm không khí",
+    icon: "🌫️",
+    description: "Tìm hiểu hậu quả của ô nhiễm không khí",
+  },
+  {
+    id: "harmful-fungi-food-preservation",
+    name: "Nấm có hại, cách bảo quản thực phẩm",
+    icon: "🍄",
+    description: "Tìm hiểu nấm có hại và cách bảo quản thực phẩm",
+  },
+
   // 💧 Nước (2 experiments)
   {
     id: "water-cycle",
